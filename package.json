@@ -1,0 +1,24 @@
+{
+  "name": "giveaway-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"run": "node .",
+		"lint": "eslint",
+		"lint:fix": "eslint --fix"
+  },
+  "keywords": [],
+  "author": "33KK",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.0",
+    "node-notifier": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.7",
+    "eslint": "^7.8.1"
+  }
+}
